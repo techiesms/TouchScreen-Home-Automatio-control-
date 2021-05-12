@@ -20,8 +20,8 @@
 TouchClass touch;
 uint8_t *framebuffer = NULL;
 
-String Auth_token_board1 =  "fAdFW1gKTybAqa8S21wUAuIFFMvZGyk8";
-String Auth_token_board2 =  "dp9gE831KjfM8Qt7QhkuNea-WpWoCMDZ";
+String Auth_token_board1 =  "Auth_Token_1";
+String Auth_token_board2 =  "Auth_Token_2";
 String auth_token_board;
 String pin_number;
 String value;
@@ -40,8 +40,8 @@ uint8_t state = 0;
 uint8_t board = 1;
 uint8_t buf[2] = {0xD1, 0X05};
 
-const char* ssid     = "SmS_jiofi";
-const char* password = "sms123458956";
+const char* ssid     = "SSID";
+const char* password = "PASS";
 
 void setup()
 {
